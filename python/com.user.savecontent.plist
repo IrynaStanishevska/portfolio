@@ -1,0 +1,24 @@
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.user.savecontent</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/irina/XXXX/XXXX/XXXX_amt_parcing.py</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>11</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/tmp/save_content.out</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/save_content.err</string>
+</dict>
+</plist>
